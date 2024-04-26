@@ -5,6 +5,9 @@ body {
 .section-one {
     background-color: #1F2937;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
 }
 
 .logo {
@@ -17,6 +20,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero {
@@ -35,36 +50,6 @@ body {
     align-items: flex-start;
     justify-content: center;
     /* gap: 10px; */
-}
-
-.hero-right {
-    display: flex;
-}
-
-.hero-image {
-    object-fit: contain;
-    width: 400px;
-    height: auto;
-}
-
-button {
-    background-color: #3882F6;
-    border-radius: 6px;
-    color: #E5E7EB;
-    padding: 5px 20px;
-    border: 0;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
 }
 
 .section-two {

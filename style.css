@@ -7,7 +7,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .logo {
@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 800px;
 }
 
 ul {
@@ -41,6 +42,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 800px;
 }
 
 .hero-left {
@@ -88,9 +90,43 @@ button {
     padding: 30px;
 }
 
+.content-two img {
+    width: 100px;
+    height: 100px;
+}
+
 .info {
     font-size: 12px;
     max-width: 120px;
     padding: 10px;
     text-align: center;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+.content-three {
+    width: 300px;
+    /* display: flex; */
+}
+
+.quote {
+    width: 500px;
+    size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    align-items: left;
+}
+
+.author {
+    justify-content: flex-end;
+    font-weight: bold;
+    justify-self: flex-end;
 }

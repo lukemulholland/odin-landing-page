@@ -52,6 +52,20 @@ a {
     /* gap: 10px; */
 }
 
+.hero-image {
+    object-fit: contain;
+    width: 400px;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #E5E7EB;
+    padding: 5px 20px;
+    border: 0;
+}
+
 .section-two {
     display: flex;
     justify-content: center;
